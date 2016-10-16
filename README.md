@@ -43,7 +43,7 @@ License
 ------------------
 Free for all!
 
-By **[Jiaqi Guo*](http://www.guojiaqi.me)*
+By **[Jiaqi Guo**](http://www.guojiaqi.me)
 
 
   [1]: http://math.stackexchange.com/
