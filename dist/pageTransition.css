@@ -1,0 +1,39 @@
+.pageTransition{
+
+  .top-half{
+    position: fixed;
+    background: white;
+    height: 50vh;
+    top: 0px;
+    width: 100vw;
+    z-index: 10000;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+  .center-progress{
+    position: fixed;
+
+    height: 6px;
+    z-index: 10001;
+    opacity: 1;
+    top: calc(50vh - 2px);
+    width: 20vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: #595959;
+    transition: width 0.5s 0s ,opacity 0s 0.5s,background-position 0.8s 1.2s;
+    background-size: 200% 100%;
+    background-position:right bottom;
+
+  }
+  .bottom-half{
+    position: fixed;
+    background: white;
+    height: 50vh;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 10000;
+    transition: 0.5s;
+    transition-delay: 0s;
+  }
+}
